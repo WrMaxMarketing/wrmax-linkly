@@ -1,0 +1,7 @@
+URLS válidas:
+/cp-solar/insta/stories/contato-whatsapp
+/cp-solar/insta/stories/formulario-orcamento
+/cp-solar/insta/bio/contato-whatsapp
+/cp-solar/insta/bio/formulario-orcamento
+
+envia dados para o sheets via webhook (app script do google sheets)
