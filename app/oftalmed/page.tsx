@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import TrackLink from "@/components/TrackLinkOftalmed";
+import Image from "next/image";
 
 export default function Home() {
   return (
