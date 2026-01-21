@@ -1,5 +1,5 @@
 "use client";
-import TrackLink from "@/components/TrackLinkTmax";
+import TrackLink from "@/components/TrackLink";
 import Image from "next/image";
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
           <div className="relative">
             <TrackLink
               href="https://www.vipexviagens.com.br"
-              label="site_vipex"
+              label="site"
               // Adicionado flex e items-center para garantir que o conteúdo interno se alinhe
               className="relative flex items-center justify-between overflow-visible rounded-[12px] bg-white px-5 py-5 shadow-2xl"
             >
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="relative">
             <TrackLink
               href="https://wa.me/5511918743332?text=Ol%C3%A1,%20vim%20da%20bio%20do%20instagram%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Assessoria%20Vipex"
-              label="contato_vipex"
+              label="contato"
               className="relative flex items-center justify-between overflow-visible rounded-[12px] bg-white px-5 py-5 shadow-2xl"
             >
               <div className="flex items-center gap-4">

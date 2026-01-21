@@ -1,5 +1,5 @@
 "use client";
-import TrackLink from "@/components/TrackLinkWrmax";
+import TrackLink from "@/components/TrackLink";
 import Image from "next/image";
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
           {/* Site */}
           <TrackLink
             href="https://www.wrmaxmarketing.com.br"
-            label="site_wrmax"
+            label="site"
             className="flex items-center gap-4 rounded-[30px] border border-white/20 bg-black/60 px-6 py-4 backdrop-blur-md transition hover:border-yellow-400"
           >
             <Image src="/images/wrmax/icon-web.png" alt="Site" width={32} height={32} />
@@ -41,7 +41,7 @@ export default function Home() {
           {/* WhatsApp */}
           <TrackLink
             href="https://wa.me/558699188465?text=Ol%C3%A1,%20vim%20da%20bio%20do%20instagram%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20assessoria%20da%20Wrmax"
-            label="contato_wrmax"
+            label="contato"
             className="flex items-center gap-4 rounded-[30px] border border-white/20 bg-black/60 px-6 py-4 backdrop-blur-md transition hover:border-yellow-400"
           >
             <Image src="/images/wrmax/icon-whatsapp.png" alt="WhatsApp" width={32} height={32} />
@@ -51,7 +51,7 @@ export default function Home() {
           {/* Localização */}
           <TrackLink
             href="https://maps.app.goo.gl/6v95KPr6rJCuAHUL9"
-            label="localizacao_wrmax"
+            label="localizacao"
             className="flex items-start gap-4 rounded-[30px] border border-white/20 bg-black/60 px-6 py-4 backdrop-blur-md transition hover:border-yellow-400"
           >
             <Image src="/images/wrmax/icon-location.png" alt="Localização" width={40} height={40} className="mt-1" />
