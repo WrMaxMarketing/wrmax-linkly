@@ -1,6 +1,6 @@
 "use client";
 
-import TrackLink from "@/components/TrackLinkOftalmed";
+import TrackLink from "@/components/TrackLink";
 import Image from "next/image";
 
 export default function Home() {
@@ -116,7 +116,7 @@ export default function Home() {
         {/* Site Button */}
         <TrackLink
           href="https://www.hospitaloftalmed.com.br"
-          label="site_oftalmed"
+          label="site"
           className="mb-4 flex w-full max-w-md items-center gap-4 rounded-full bg-[#2d5966] px-5 py-4 text-white transition-all hover:bg-[#3d6976]"
         >
           <>
@@ -190,7 +190,7 @@ export default function Home() {
         <div className="mt-8">
           <TrackLink
             href="https://www.instagram.com/wrmaxmarketing/"
-            label="logo_wrmax"
+            label="insta_wrmaxmarketing"
             className="inline-block"
           >
             <Image

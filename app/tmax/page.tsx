@@ -1,7 +1,7 @@
 "use client";
 // NÃO TRACKEADO NO GA4 E GTM
 
-import TrackLink from "@/components/TrackLinkTmax";
+import TrackLink from "@/components/TrackLink";
 import Image from "next/image";
 
 export default function Home() {
@@ -59,7 +59,7 @@ export default function Home() {
               {/* WhatsApp */}
               <TrackLink
                 href="https://wa.me/558695642883?text=Ol%C3%A1,%20vim%20da%20bio%20do%20instagram%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20empreendimentos%20dispon%C3%ADveis"
-                label="contato_tmax"
+                label="contato"
                 className="flex w-full items-center gap-4 rounded-full bg-[#d4a657] px-6 py-4 transition-all hover:brightness-110"
               >
                 <>
@@ -82,7 +82,7 @@ export default function Home() {
               {/* Site */}
               <TrackLink
                 href="https://www.tmaximobiliaria.com.br/"
-                label="site_tmax"
+                label="site"
                 className="flex w-full items-center gap-4 rounded-full bg-[#d4a657] px-6 py-4 transition-all hover:brightness-110"
               >
                 <>
@@ -105,7 +105,7 @@ export default function Home() {
               {/* Localização */}
               <TrackLink
                 href="https://share.google/FCieLQkBRC7AZlbT6"
-                label="localizacao_tmax"
+                label="localizacao"
                 className="flex w-full items-start gap-4 rounded-[26px] bg-[#d4a657] px-6 py-4 transition-all hover:brightness-110"
               >
                 <>
@@ -139,7 +139,7 @@ export default function Home() {
             <div className="mt-5 flex justify-center mb-[-20]">
               <TrackLink
                 href="https://www.instagram.com/wrmaxmarketing/"
-                label="wrmax_marketing"
+                label="insta_wrmaxmarketing"
               >
                 <Image
                   src="/images/tmax/wrmax-icon.png"

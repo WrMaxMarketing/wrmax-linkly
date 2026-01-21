@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import TrackLink from "@/components/TrackLink";
 
 export default function HomePage() {
   return (
@@ -6,8 +9,9 @@ export default function HomePage() {
       {/* Topo */}
       <div className="w-full bg-[#fef5f1] px-4 py-2">
         <div className="max-w-[260px] mx-auto">
-          <a
+          <TrackLink
             href="https://www.instagram.com/icadomcentromedico/"
+            label="instagram"
             className="block"
           >
             <Image
@@ -18,7 +22,7 @@ export default function HomePage() {
               className="w-full h-auto"
               priority
             />
-          </a>
+          </TrackLink>
         </div>
       </div>
 
@@ -32,7 +36,6 @@ export default function HomePage() {
             className="object-cover"
             priority
           />
-          {/* overlay sutil (premium + legibilidade) */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/20 to-black/45" />
         </div>
 
@@ -44,9 +47,10 @@ export default function HomePage() {
               obesidade.
             </h1>
 
-            {/* Botões (base mais “fina”) */}
-            <a
+            {/* WhatsApp */}
+            <TrackLink
               href="https://wa.me/5586988747984?text=Ol%C3%A1,%20gostaria%20de%20marcar%20uma%20consulta"
+              label="whatsapp"
               className="w-full rounded-3xl px-4 py-2.5 flex items-center gap-3
                          bg-gradient-to-r from-[#751513] via-[#751513]/85 to-[#751513]/25
                          border border-white/10 shadow-[0_10px_22px_rgba(0,0,0,0.25)]
@@ -62,10 +66,12 @@ export default function HomePage() {
               <span className="text-white text-[16px] text-left">
                 Contato <span className="font-semibold">ICADOM</span>
               </span>
-            </a>
+            </TrackLink>
 
-            <a
+            {/* Site */}
+            <TrackLink
               href="https://icadom.com.br"
+              label="site"
               className="w-full rounded-3xl px-4 py-2.5 flex items-center gap-3
                          bg-gradient-to-r from-[#751513] via-[#751513]/85 to-[#751513]/25
                          border border-white/10 shadow-[0_10px_22px_rgba(0,0,0,0.25)]
@@ -81,10 +87,12 @@ export default function HomePage() {
               <span className="text-white text-[16px] text-left">
                 Site <span className="font-semibold">ICADOM</span>
               </span>
-            </a>
+            </TrackLink>
 
-            <a
+            {/* Localização */}
+            <TrackLink
               href="https://maps.app.goo.gl/PMemrd7vnohUd8m26"
+              label="localizacao"
               className="w-full rounded-3xl px-4 py-3 flex items-center gap-3
                          bg-gradient-to-r from-[#f2ebe6] via-[#e5ddd5] to-[#e5ddd5]/35
                          border border-white/30 shadow-[0_8px_18px_rgba(0,0,0,0.18)]
@@ -105,7 +113,7 @@ export default function HomePage() {
                   R. das Tulípas, 325 – Jóquei
                 </p>
               </div>
-            </a>
+            </TrackLink>
 
             {/* Horários */}
             <div className="mt-1.5">
@@ -114,19 +122,13 @@ export default function HomePage() {
               </h2>
 
               <div className="flex flex-col gap-2.5">
-                <div
-                  className="w-full bg-white/5 border border-white/25 rounded-3xl px-4 py-2.5
-                             backdrop-blur-[2px] shadow-[0_6px_14px_rgba(0,0,0,0.18)]"
-                >
+                <div className="w-full bg-white/5 border border-white/25 rounded-3xl px-4 py-2.5 backdrop-blur-[2px] shadow-[0_6px_14px_rgba(0,0,0,0.18)]">
                   <p className="text-white text-[14px] text-center">
                     Segunda à Quinta: 07:00 às 18:00
                   </p>
                 </div>
 
-                <div
-                  className="w-full bg-white/5 border border-white/25 rounded-3xl px-4 py-2.5
-                             backdrop-blur-[2px] shadow-[0_6px_14px_rgba(0,0,0,0.18)]"
-                >
+                <div className="w-full bg-white/5 border border-white/25 rounded-3xl px-4 py-2.5 backdrop-blur-[2px] shadow-[0_6px_14px_rgba(0,0,0,0.18)]">
                   <p className="text-white text-[14px] text-center">
                     Sexta-feira: 07:00 às 17:00
                   </p>
@@ -136,7 +138,10 @@ export default function HomePage() {
 
             {/* WRMAX */}
             <div className="mt-1.5 flex justify-center">
-              <a href="https://www.instagram.com/wrmaxmarketing/">
+              <TrackLink
+                href="https://www.instagram.com/wrmaxmarketing/"
+                label="instagram_wrmax"
+              >
                 <Image
                   src="/images/icadom/logo-wrmax.png"
                   alt="WRMAX Marketing"
@@ -144,7 +149,7 @@ export default function HomePage() {
                   height={35}
                   className="w-[92px] h-auto opacity-85 hover:opacity-100 transition-opacity"
                 />
-              </a>
+              </TrackLink>
             </div>
           </div>
         </div>
