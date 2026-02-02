@@ -22,17 +22,17 @@ export default function HomePage() {
 
         {/* TEXTO */}
         <p className="max-w-[360px] text-center text-white text-[16px] leading-relaxed">
-          <span className="bg-[#f3c845] text-black px-2 py-1 rounded-md font-semibold">
+          <span className="bg-[#EED93E] text-black px-2 py-1 rounded-md font-semibold">
             Há mais de 13 anos
           </span>{" "}
           cuidando do seu carro com confiança. Mecânica automotiva completa,{" "}
-          <span className="bg-[#f3c845] text-black px-2 py-1 rounded-md font-semibold">
+          <span className="bg-[#EED93E] text-black px-2 py-1 rounded-md font-semibold">
             qualidade e transparência.
           </span>
         </p>
 
         {/* LINHA DIVISÓRIA COM GRADIENTE */}
-        <div className="w-full max-w-[320px] h-px my-8 bg-gradient-to-r from-[#f3c845]/45 to-[#f3c845]/0" />
+        <div className="w-full max-w-[320px] h-px my-8 bg-gradient-to-r from-[#EED93E]/45 to-[#EED93E]/0" />
 
         {/* BOTÕES */}
         <div className="w-full max-w-[380px] flex flex-col gap-4">
@@ -45,8 +45,8 @@ export default function HomePage() {
               rounded-[70px]
               px-6 py-4
               bg-gradient-to-r
-              from-[#f3c845]/45 via-[#f3c845]/25 to-[#f3c845]/0
-              border border-[#f3c845]/35
+              from-[#EED93E]/45 via-[#EED93E]/25 to-[#EED93E]/0
+              border border-[#EED93E]/35
               shadow-[0_8px_18px_rgba(0,0,0,0.25)]
               active:scale-[0.99] transition
             "
@@ -75,8 +75,8 @@ export default function HomePage() {
               rounded-[70px]
               px-6 py-4
               bg-gradient-to-r
-              from-[#f3c845]/45 via-[#f3c845]/25 to-[#f3c845]/0
-              border border-[#f3c845]/35
+              from-[#EED93E]/45 via-[#EED93E]/25 to-[#EED93E]/0
+              border border-[#EED93E]/35
               shadow-[0_8px_18px_rgba(0,0,0,0.25)]
               active:scale-[0.99] transition
             "
