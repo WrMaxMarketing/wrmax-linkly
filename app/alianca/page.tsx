@@ -20,10 +20,11 @@ export default function HomePage() {
         {/* Espaço para aparecer o logo azul do background */}
         <div className="h-[230px]" />
 
+
         {/* TEXTO */}
         <p className="max-w-[360px] text-center text-white text-[16px] leading-relaxed">
           <span className="bg-[#EED93E] text-black px-2 py-1 rounded-md font-semibold">
-            Há mais de 13 anos
+            Há mais de 14 anos
           </span>{" "}
           cuidando do seu carro com confiança. Mecânica automotiva completa,{" "}
           <span className="bg-[#EED93E] text-black px-2 py-1 rounded-md font-semibold">
