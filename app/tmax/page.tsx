@@ -127,7 +127,7 @@ export default function Home() {
                       className="mt-1 text-[13px] font-medium leading-tight"
                       style={{ color: "#292929" }}
                     >
-                      Torre Office – Av. Universitária, 750 <br />
+                      Diamond Center – Av. Universitária, 750 <br />
                       16º Andar, Sala 1610 – Fátima
                     </p>
                   </div>
