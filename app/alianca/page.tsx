@@ -1,10 +1,14 @@
 "use client";
 
 import TrackLink from "@/components/TrackLink";
+import MetaPixel from "@/components/MetaPixel";
 import Image from "next/image";
 
 export default function HomePage() {
+  
   return (
+    <>
+    <MetaPixel pixelId="1061220366201984" />
     <div className="relative min-h-screen w-full bg-black overflow-hidden">
       {/* BACKGROUND PURO (SEM OVERLAY) */}
       <Image
@@ -185,5 +189,6 @@ export default function HomePage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
