@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <>
     <MetaPixel pixelId="1061220366201984" />
-    <div className="relative min-h-screen w-full bg-black overflow-hidden">
+    <main className="relative min-h-screen w-full bg-black overflow-hidden">
       {/* BACKGROUND PURO (SEM OVERLAY) */}
       <Image
         src="/images/alianca/background.png"
@@ -188,7 +188,7 @@ export default function HomePage() {
           </TrackLink>
         </div>
       </div>
-    </div>
+    </main>
     </>
   );
 }
