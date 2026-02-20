@@ -142,7 +142,6 @@ export default function drgabrielbaiaoPage() {
                                         {[
                                             "Bom Jesus",
                                             "Floriano",
-                                            "Bertolínia",
                                             "Corrente",
                                             "Curimatá",
                                             "Uruçuí",
