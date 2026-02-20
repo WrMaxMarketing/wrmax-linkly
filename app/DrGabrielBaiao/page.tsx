@@ -78,7 +78,7 @@ export default function drgabrielbaiaoPage() {
                     className="w-8 h-8"
                   />
                   <span className="text-[15px] tracking-wide">
-                    AGENTE UMA CONSULTA
+                    AGENDE UMA CONSULTA
                   </span>
                 </TrackLink>
 
