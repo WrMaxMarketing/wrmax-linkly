@@ -84,7 +84,7 @@ export default function drgabrielbaiaoPage() {
 
                                     {/* WhatsApp */}
                                     <TrackLink
-                                        href="https://wa.me/555981396444?text=Ol%C3%A1,%20vim%20da%20bio%20do%20instagram%20e%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Gabriel%20Bai%C3%A3o"
+                                        href="https://wa.me/5589981396444?text=Ol%C3%A1,%20vim%20da%20bio%20do%20instagram%20e%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Gabriel%20Bai%C3%A3o"
                                         label="whatsapp_drgabrielbaiao"
                                         className="w-full bg-[#2b2b2b] text-white rounded-3xl px-5 py-4
                              flex items-center gap-4 shadow-lg
