@@ -1,52 +1,40 @@
 "use client";
 
-import { useEffect } from "react";
-
-declare global {
-  interface Window {
-    fbq?: (...args: any[]) => void;
-    _fbq?: (...args: any[]) => void;
-  }
-}
+import Script from "next/script";
 
 type MetaPixelProps = {
   pixelId: string;
 };
 
 export default function MetaPixel({ pixelId }: MetaPixelProps) {
-  useEffect(() => {
-    if (!pixelId) return;
+  if (!pixelId) return null;
 
-    // Evita duplicar pixel
-    if (window.fbq) {
-      window.fbq("init", pixelId);
-      window.fbq("track", "PageView");
-      return;
-    }
+  return (
+    <>
+      <Script
+        id={`meta-pixel-${pixelId}`}
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function()
+            {n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];
+            t=b.createElement(e);t.async=!0;
+            t.src=v;
+            s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}
+            (window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
 
-    // Cria o script
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = "https://connect.facebook.net/en_US/fbevents.js";
-
-    script.onload = () => {
-      if (!window.fbq) return;
-
-      window.fbq("init", pixelId);
-      window.fbq("track", "PageView");
-    };
-
-    document.head.appendChild(script);
-
-    // Stub do fbq (fila)
-    window.fbq = function () {
-      (window.fbq as any).queue.push(arguments);
-    };
-    (window.fbq as any).queue = [];
-    (window.fbq as any).loaded = true;
-    (window.fbq as any).version = "2.0";
-
-  }, [pixelId]);
-
-  return null;
+            fbq('init', '${pixelId}');
+            fbq('track', 'PageView');
+          `,
+        }}
+      />
+    </>
+  );
 }
