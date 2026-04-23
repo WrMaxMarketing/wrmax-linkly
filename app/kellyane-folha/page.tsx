@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Page() {
     return (
-        <main className="relative min-h-screen overflow-hidden bg-[#1A0B1F]">
+        <main className="relative min-h-screen overflow-hidden bg-[#1A0B1F] pt-10">
             {/* Fundo - Mais escuro e profundo para dar contraste premium */}
             <div className="absolute inset-0">
                 <Image
