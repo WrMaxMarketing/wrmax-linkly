@@ -49,7 +49,7 @@ export default function HomePage() {
 
             {/* WhatsApp */}
             <TrackLink
-              href="https://wa.me/5586988747984?text=Ol%C3%A1,%20gostaria%20de%20marcar%20uma%20consulta"
+              href="https://weare.leaper.com.br/flow/QDR1773066927?utm_source=INSTAGRAM_ORGANIC&utm_medium=organic"
               label="whatsapp"
               className="w-full rounded-3xl px-4 py-2.5 flex items-center gap-3
                          bg-gradient-to-r from-[#751513] via-[#751513]/85 to-[#751513]/25
