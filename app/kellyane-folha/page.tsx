@@ -10,7 +10,7 @@ export default function Page() {
             {/* Fundo - Mais escuro e profundo para dar contraste premium */}
             <div className="absolute inset-0">
                 <Image
-                    src="/images/kellyane/background.jpg"
+                    src="/images/kellyane/background.JPG"
                     alt="Dra. Kellyane Folha background"
                     fill
                     priority
