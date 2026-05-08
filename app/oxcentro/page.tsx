@@ -56,8 +56,8 @@ const CARDS = [
     id: "convenios",
     variant: "split",
     gradient: "linear-gradient(135deg, #b70208 0%, #ff131a 100%)",
-    title: <>Aceitamos diversos Convênios</>,
-    subtitle: "Particular • Cassi • Fusex • Geap • IPMT",
+    title: <>Convênios</>,
+    subtitle: "Cassi • Fusex • Geap • Ipmt • Iaspi • Capitania dos Portos • Select",
     icon: "/images/oxcentro/convenios-icon.png",
     side: "left",
   },
@@ -134,7 +134,7 @@ export default function Home() {
 
       {/* Header */}
       <header className="mb-10 flex flex-col items-center">
-        <div className="mb-4 overflow-hidden rounded-full border-4 bg-[#1d3756] p-1 shadow-xl">
+        <div className="mb-4 overflow-hidden rounded-full bg-[#1d3756] p-1 shadow-xl">
           <Image
             src="/images/oxcentro/logo-oxcentro.png"
             alt="Logo"
