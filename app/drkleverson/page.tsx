@@ -79,7 +79,7 @@ export default function DrKleversonPage() {
 
             <motion.div variants={itemVariants} className="space-y-2">
               <h1 className="text-3xl font-serif font-semibold tracking-wide">
-                Dr. Kleverson <br /> Folha Gois
+                Dr. Kléverson <br /> Folha Gois
               </h1>
               <div className="flex items-center justify-center gap-2 text-white/80">
                 <Scale className="w-4 h-4" />
