@@ -89,7 +89,7 @@ export default function StandardRedirectPage() {
         </h1>
         
         <p style={{ color: "#4B5563", fontSize: "15px", lineHeight: "1.5", margin: "0 0 32px" }}>
-          Você está sendo conectado ao atendimento seguro do <strong>Dr. Romilton Pacheco</strong>.
+          Você está sendo conectado ao atendimento seguro do <strong>Dr. Romilto Pacheco</strong>.
         </p>
 
         {/* ÁREA DE PROGRESSO */}
