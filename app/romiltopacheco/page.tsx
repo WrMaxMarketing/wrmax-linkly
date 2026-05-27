@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 
 export default function StandardRedirectPage() {
   const TOTAL_SECONDS = 5;
-  const WHATSAPP_URL = "https://wa.me/558698439969?text=Ol%C3%A1,%20vim%20da%20bio%20do%20instagram%20e%20gostaria%20de%20marcar%20uma%20consulta%20com%20o%20Dr.%20Romilto";
+  const WHATSAPP_URL = "https://wa.me/558688241801?text=Ol%C3%A1,%20vim%20da%20bio%20do%20Instagram%20e%20gostaria%20de%20marcar%20uma%20consulta%20com%20o%20Dr.%20Romilto%20";
   
   const [timeLeft, setTimeLeft] = useState(TOTAL_SECONDS);
 
