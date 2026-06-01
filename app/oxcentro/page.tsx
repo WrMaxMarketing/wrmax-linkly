@@ -12,7 +12,7 @@ const CARDS = [
     gradient: "linear-gradient(135deg, #0b1b2e 0%, #0a284c 100%)",
     content: <>Agende sua <b>consulta</b> pelo Whatsapp</>,
     icon: "/images/oxcentro/whatsapp-icon.png",
-    href: "https://wa.me/558699970998?text=Ol%C3%A1,%20vim%20da%20bio%20do%20instagram%20e%20gostaria%20de%20marcar%20uma%20consulta",
+    href: "https://wa.me/5586999709983?text=Ol%C3%A1,%20vim%20da%20bio%20do%20Instagram%20e%20gostaria%20de%20marcar%20uma%20consulta",
     side: "right",
   },
   {
