@@ -47,7 +47,7 @@ export default function HomePage() {
           {/* TEXTO */}
           <p className="max-w-[360px] text-center text-white text-[16px] leading-relaxed">
             <span className="bg-[#EED93E] text-black px-2 py-1 rounded-md font-semibold">
-              Há mais de 14 anos
+              Há mais de 15 anos
             </span>{" "}
             cuidando do seu carro com confiança. Mecânica automotiva completa,{" "}
             <span className="bg-[#EED93E] text-black px-2 py-1 rounded-md font-semibold">
@@ -92,7 +92,7 @@ export default function HomePage() {
 
             {/* WhatsApp Timon */}
             <TrackLink
-              href="https://weare.leaper.com.br/flow/MFH1770731404"
+              href="https://wa.me/5586988212442?text=Ol%C3%A1,%20vim%20do%20Instagram%20e%20gostaria%20de%20agendar%20um%20servi%C3%A7o%20para%20o%20meu%20carro."
               label="whatsapp-timon"
               className="
               flex items-center gap-4
