@@ -21,8 +21,9 @@ const CARDS = [
     gradient: "linear-gradient(135deg, #1d3756 0%, #0b1b2e 100%)",
     content: <>Conheça nosso <b>Site</b> Oxcentro Oficial</>,
     icon: "/images/oxcentro/site-icon.png",
-    href: "oxcentro.vercel.app",
+    href: "https://www.oxcentromedico.com.br/",
     side: "left",
+    //change
   },
   {
     id: "doctoralia",
